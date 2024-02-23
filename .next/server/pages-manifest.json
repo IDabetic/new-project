@@ -1,8 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/api/faust/[[...route]]": "pages/api/faust/[[...route]].js",
-  "/[...wordpressNode]": "pages/[...wordpressNode].js"
-}
+{"/_error":"pages/_error.js","/_app":"pages/_app.js","/api/faust/[[...route]]":"pages/api/faust/[[...route]].js","/dashboard/edit-profile":"pages/dashboard/edit-profile.html","/_document":"pages/_document.js","/dashboard":"pages/dashboard.html","/login":"pages/login.html","/dashboard/posts":"pages/dashboard/posts.html","/preview":"pages/preview.html","/sign-up":"pages/sign-up.html","/404":"pages/404.js","/author/[slug]":"pages/author/[slug].js","/author/[slug]/favorites":"pages/author/[slug]/favorites.js","/[...wordpressNode]":"pages/[...wordpressNode].js","/":"pages/index.js","/author/[slug]/bookmarks":"pages/author/[slug]/bookmarks.js","/search/[search]":"pages/search/[search].js","/readinglist":"pages/readinglist.js","/search/categories/[[...search]]":"pages/search/categories/[[...search]].js","/edit/[id]":"pages/edit/[id].js","/dashboard/posts/[tab]":"pages/dashboard/posts/[tab].js","/submission":"pages/submission.js","/search/authors/[[...search]]":"pages/search/authors/[[...search]].js","/search/posts/[[...search]]":"pages/search/posts/[[...search]].js","/dashboard/edit-profile/[tab]":"pages/dashboard/edit-profile/[tab].js"}
