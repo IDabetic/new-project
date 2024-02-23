@@ -1,1 +1,24 @@
 /node_modules
+# Zavisnosti
+/node_modules/
+
+# Build output
+/.next/
+/out/
+/build/
+/dist/
+
+# Lokalne konfiguracije
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# MacOS sistemski fajlovi
+.DS_Store
+
+# Editor direktorijumi i fajlovi
+.idea/
+*.swp
+*.swo
+.vscode/
