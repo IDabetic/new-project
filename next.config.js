@@ -7,23 +7,19 @@ module.exports = withFaust({
   trailingSlash: true,
   experimental: {
     typedRoutes: false,
-    appDir: false,
+    //appDir: false,
   },
   images: {
-    domains: [
-      "3.gravatar.com",
-      "2.gravatar.com",
-      "1.gravatar.com",
-      "0.gravatar.com",
-      "secure.gravatar.com",
-      "images.pexels.com",
-      "images.unsplash.com",
-      getWpHostname(),
-    ],
     remotePatterns: [
       {
         protocol: "https",
         hostname: getWpHostname(),
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "0.gravatar.com",
         port: "",
         pathname: "/**",
       },
@@ -36,6 +32,12 @@ module.exports = withFaust({
       {
         protocol: "https",
         hostname: "2.gravatar.com",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "3.gravatar.com",
         port: "",
         pathname: "/**",
       },
